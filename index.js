@@ -2,8 +2,9 @@ const express = require('express')
 const bodyParser = require('body-parser')
 const app = express()
 const db = require('./queries')
-const port = '44.226.145.213'
 const dotenv = require('dotenv').config();
+const port = process.env.PORT || 3001
+
 
 app.use(bodyParser.json())
 app.use(
