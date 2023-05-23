@@ -1,9 +1,16 @@
 var dbAccess = require('./dbConfig');
 const dotenv = require('dotenv').config();
+//const Pool = require('pg').Pool
+//const pool = new Pool(dbAccess);
+
 const Pool = require('pg').Pool
-const pool = new Pool(dbAccess);
-
-
+const pool = new Pool({
+  user: 'me',
+  host: 'dpg-chm7rou4dad6k5n14ueg-a',
+  database: 'api_tnf9',
+  password: 'y18L2tdiWc0cFGtOT0iCFMOTRViww9GO',
+  port: 5432,
+})
 
 
 const getUsers = (request, response) => {
