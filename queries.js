@@ -2,16 +2,7 @@ var dbAccess = require('./dbConfig');
 const dotenv = require('dotenv').config();
 const Pool = require('pg').Pool
 const pool = new Pool(dbAccess);
-/*
-const Pool = require('pg').Pool
-const pool = new Pool({
-  user: 'me',
-  host: 'localhost',
-  database: 'api',
-  password: 'password',
-  port: 5432,
-})
-*/
+
 
 
 
