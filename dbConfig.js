@@ -19,6 +19,7 @@ module.exports = {
     database: process.env.DATABASE,
     password: process.env.PASSWORD,
     port: process.env.PORT,    
-    sslmode: process.env.SSLMODE
+    sslmode: process.env.SSLMODE,
+    nodeVersion: process.env.NODE_VERSION
 }
 
