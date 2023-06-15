@@ -15,10 +15,10 @@ const pool = new Pool(dbAccess);
 const getUsers = (request, response) => {
   pool.query('SELECT * FROM users ORDER BY id ASC', (error, results) => {
     if (error) {
-      console.log(pool);
+      //console.log(pool);
       throw error
     }
-    console.log(pool);
+    //console.log(pool);
     response.status(200).json(results.rows)
   })
 }
