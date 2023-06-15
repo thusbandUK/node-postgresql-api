@@ -5,10 +5,10 @@ const dotenv = require('dotenv').config();
 /**/
 const Pool = require('pg').Pool
 const pool = new Pool({
-  user: 'me',
-  host: 'dpg-chm7rou4dad6k5n14ueg-a',
-  database: 'api_tnf9',
-  password: 'y18L2tdiWc0cFGtOT0iCFMOTRViww9GO',
+  user: 'render_chingu',
+  host: 'dpg-chm9s982qv27ib5ukld0-a',
+  database: 'render_database_7amo',
+  password: 'NXN29MnYp0p93whqJyBJ60Hn0wDXGJ4h',
   port: 5432,
 })
 
