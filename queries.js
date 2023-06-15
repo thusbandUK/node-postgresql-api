@@ -1,9 +1,9 @@
-var dbAccess = require('./dbConfig');
 const dotenv = require('dotenv').config();
+var dbAccess = require('./dbConfig');
 //const Pool = require('pg').Pool
 //const pool = new Pool(dbAccess);
 /**/
-var dbAccess = require('./dbConfig');
+//var dbAccess = require('./dbConfig');
 
 const Pool = require('pg').Pool
 const pool = new Pool(dbAccess);
