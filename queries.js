@@ -11,7 +11,7 @@ const Pool = require('pg').Pool
 const pool = new Pool(
   {user: 'render_chingu',
   host: 'dpg-chm9s982qv27ib5ukld0-a',
-  database: 'render_database_7amoHELLO',
+  database: 'render_database_7amo',
   password: 'NXN29MnYp0p93whqJyBJ60Hn0wDXGJ4h',
   port: 5432,}
 )
@@ -24,6 +24,7 @@ const getUsers = (request, response) => {
       console.log(pool);
       throw error
     }
+    console.log(pool);
     response.status(200).json(results.rows)
   })
 }
