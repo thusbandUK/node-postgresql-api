@@ -11,7 +11,7 @@ const Pool = require('pg').Pool
 const pool = new Pool(
   {user: 'render_chingu',
   host: 'dpg-chm9s982qv27ib5ukld0-a',
-  database: 'render_database_7amo',
+  database: 'render_database_7amoHELLO',
   password: 'NXN29MnYp0p93whqJyBJ60Hn0wDXGJ4h',
   port: 5432,}
 )
